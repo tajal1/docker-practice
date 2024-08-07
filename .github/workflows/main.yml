@@ -30,5 +30,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64/v8
           push: true
-          target: dev
           tags: ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
